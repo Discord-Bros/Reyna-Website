@@ -22,7 +22,7 @@
   </script>
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav  class="navbar navbar-light navbar-expand-lg navbar-dark" style="background-color: #34383c;">
 <a class="navbar-brand" href="#">
     <img src="https://reyna-discordbot.000webhostapp.com/images/reyna.webp" width="30" height="30" alt="" loading="lazy">
   </a>
@@ -35,23 +35,43 @@
       <li class="nav-item active">
         <a class="nav-link" href="moderation/">Moderation<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="music/">Music</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="music/">Music<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://discord.gg/CyEuyD8">Support Server</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="https://playvalorant.com/en-gb/">Valorant<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="https://discord.gg/CyEuyD8">Support Server<span class="sr-only">(current)</span></a>
       </li>
     </ul>
     <span class="navbar-text">
    <!-- Welcome, //<?php //echo $_SESSION['username']; ?>!
     <a href="../logout.php">Logout</a>-->
-    <button onclick="OAUTH2();">Add Now</button>
+    <button onclick="OAUTH2();" style="background-color: aquamarine;">Add Now</button>
     </span>
   </div>
 </nav>
 <div class="background">
+  <div class="web-logo">
+    <img src="https://reyna-discordbot.000webhostapp.com/images/web_logo.png" alt="valorant-log">
+  </div>
+ 
 <img src="https://reyna-discordbot.000webhostapp.com/images/Reyna_Background.png" alt="Reyna">
+<div class="info-bot">
+   <img src="http://localhost/Reyna/img/info-box.png" alt="info-bot">
+  </div>
+  <div class="headerone">
+  Add Reyna Now
+  </div>
+<div class="button-invite">
+  <button class="invite" onclick="OAUTH2();">
+    <img src="http://localhost/Reyna/img/discord-logo.png" alt="discord-img" style="width: 64px; height: 64px;">
+  Add To Discord
+</button>
+  </div>
 </div>
+<br class="footer"/>
 <div class="footer">
 
 </div>

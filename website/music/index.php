@@ -33,12 +33,13 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/moderation/">Moderation<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="../moderation">Moderation<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="music/">Music</a>
+        <a class="nav-link" href="../music">Music</a>
       </li>
       <li class="nav-item">
+         
         <a class="nav-link" href="https://discord.gg/CyEuyD8">Support Server</a>
       </li>
     </ul>

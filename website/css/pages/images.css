@@ -2,3 +2,38 @@ div.background {
     position: absolute;
     right: 150px;
 }
+
+div.web-logo {
+    position: absolute;
+    right: 10cm;
+}
+
+div.info-bot {
+    position: absolute;
+    right: 9cm;
+    top: 4cm;
+}
+
+div.button-invite {
+    position: absolute;
+}
+button.invite {
+    position: absolute;
+    right: 4cm;
+    left: -10cm;
+    top: -10cm;
+    background-color: aquamarine;
+}
+
+div.headerone {
+    position: absolute;
+}
+
+br.footer {
+    background-color: #34383c;
+}
+body {
+    background-color: #34383c;
+    font-family: VALORANT;
+    src: url("fonts/valorant/Valorant-Font.ttf");
+}
